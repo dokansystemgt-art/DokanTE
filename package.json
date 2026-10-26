@@ -1,0 +1,20 @@
+{
+  "name": "dokan-tickets",
+  "version": "1.0.0",
+  "description": "DOKAN Tickets & Eventos - venta de entradas (General, VIP, RINGSIDE), pagos por transferencia o efectivo, QR, WhatsApp y taquilla",
+  "main": "server.js",
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "start": "node --no-warnings --dns-result-order=ipv4first server.js",
+    "test": "node --no-warnings ..."
+  },
+  "dependencies": {
+    "@libsql/client": "^0.18.0",
+    "html5-qrcode": "^2.3.8",
+    "nodemailer": "^6.9.16",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.33.5"
+  }
+}
